@@ -12,13 +12,15 @@
 
 @font-face {
     font-family: happyHour;
-    src: url(../ASSETS/FONTS/TheEndFont.ttf);
+    src: url(../ASSETS/FONTS/Simple\ Chalk.ttf);
 }
 
 @font-face {
     font-family: hour;
-    src: url(../ASSETS/FONTS/Rockwill.ttf);
+    src: url(../ASSETS/FONTS/Simple\ Chalk.ttf);
 }
+
+
 
 
 * {
@@ -70,14 +72,16 @@ body {
         font-family: happyHour;
         font-size: 4.2rem;
         font-style: italic;
-        line-height:55px;
+        letter-spacing: 5px;
+        line-height:75px;
         color:rgba(255, 230, 0, 0.692);
     }
 
     .happyHour h3 {
         font-family: hour;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-style: italic;
+        letter-spacing: 2px;
         color:rgba(255 ,230, 0, 0.692);
         
     }
